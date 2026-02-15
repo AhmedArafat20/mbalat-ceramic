@@ -485,3 +485,19 @@ img{max-width:100%; display:block}
   .projects-grid{grid-template-columns: repeat(2, 1fr)}
   .hero-points{grid-template-columns: 1fr}
 }
+.fbtn{
+  width:50px;
+  height:50px;
+  border:none;        /* ❌ شيل البوردر */
+  outline:none;
+  background: transparent; /* اختياري لو عايز الأيقونة لوحدها */
+  box-shadow: none;   /* يشيل أي ظل */
+  display:grid;
+  place-items:center;
+}
+
+.fbtn img{
+  width:50px;   /* ✅ نفس حجم الزر */
+  height:50px;
+  object-fit: contain;
+}
